@@ -7,8 +7,11 @@ class App < Sinatra::Base
     get '/' do
       
       erb :'../views/superhero'
-    
     end
+    
+    post '/teams' do
+      @team_name = (params["team"][""name])
+      
     
   
 

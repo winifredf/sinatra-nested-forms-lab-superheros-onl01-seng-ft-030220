@@ -14,7 +14,7 @@ class App < Sinatra::Base
       @team_motto = (params["team"]["motto"])
       @team_members = (params[":team"][":members"])
       
-      erb :'/team'
+      erb :'..views/team'
     end
   
 

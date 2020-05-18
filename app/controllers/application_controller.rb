@@ -8,7 +8,9 @@ class App < Sinatra::Base
       
     end
     
-    get '/view'
+    get '/views'
+    
+    end
 
 
 end
